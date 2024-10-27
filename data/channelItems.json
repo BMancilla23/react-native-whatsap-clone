@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "name": "Canal N",
+      "description": "Noticias en tiempo real de Perú y el mundo.",
+      "category": "Noticias",
+      "members": 50000,
+      "image": "https://pbs.twimg.com/profile_images/1769589607186763776/VcVi6V5s_400x400.png",
+      "link": "https://chat.whatsapp.com/invite/canaln"
+    },
+    {
+      "id": 2,
+      "name": "RPP Noticias",
+      "description": "Información actualizada de noticias y sucesos en Perú.",
+      "category": "Noticias",
+      "members": 60000,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/36/RPP_logo.png",
+      "link": "https://chat.whatsapp.com/invite/rppnoticias"
+    },
+    {
+      "id": 3,
+      "name": "America Deportes",
+      "description": "Todo sobre deportes en Perú, resultados y noticias.",
+      "category": "Deportes",
+      "members": 45000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHbTTArXkQ5FAPPF5Oee7jZAaNLa2GsglYpQ&s",
+      "link": "https://chat.whatsapp.com/invite/americadeportes"
+    },
+    {
+      "id": 4,
+      "name": "El Comercio",
+      "description": "El diario más importante de Perú, con noticias y análisis.",
+      "category": "Noticias",
+      "members": 55000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwMdeDkTUP9JIODnkdgq0a-uehI7GAx0x4jQ&s",
+      "link": "https://chat.whatsapp.com/invite/elcomercio"
+    },
+    {
+      "id": 5,
+      "name": "Depor",
+      "description": "Toda la información sobre deportes, especialmente fútbol.",
+      "category": "Deportes",
+      "members": 35000,
+      "image": "https://play-lh.googleusercontent.com/3hXacqTn2RQ1vXTOdlNWlkFFmjT7cwa0ISjjgWDViLKFmHFo0Ta0v3m9CakkzlF72w",
+      "link": "https://chat.whatsapp.com/invite/depor"
+    },
+    {
+      "id": 6,
+      "name": "Panamericana Televisión",
+      "description": "Noticias de actualidad y entretenimiento.",
+      "category": "Noticias",
+      "members": 40000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqDHyz64D6fxx20WNGuNvwL5lfByFszRTDIMwS3VgmZZeHjVV7ipM3UmblQ8UppbMiQSc&usqp=CAU",
+      "link": "https://chat.whatsapp.com/invite/panamericanatv"
+    },
+    {
+      "id": 7,
+      "name": "Movistar Deportes",
+      "description": "Eventos deportivos y novedades del mundo del deporte.",
+      "category": "Deportes",
+      "members": 32000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQai-XRiKvraPeEZL1f66ywPT170utcB_0vZQ&s",
+      "link": "https://chat.whatsapp.com/invite/movistardeportes"
+    }
+  ]
+  
