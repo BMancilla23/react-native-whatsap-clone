@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "name": "Viajeros Perú",
+      "description": "Comunidad para compartir experiencias, destinos y consejos de viaje en Perú.",
+      "category": "Turismo",
+      "members": 22000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThwg3FhhWlYq-liDfG93ASyA7ujqMorBecxQ&s",
+      "link": "https://chat.whatsapp.com/invite/viajerosperu"
+    },
+    {
+      "id": 2,
+      "name": "Cultura Peruana",
+      "description": "Debates y contenidos sobre la rica cultura del Perú, historia, arte y tradiciones.",
+      "category": "Cultura",
+      "members": 15000,
+      "image": "https://media.istockphoto.com/id/539148837/es/vector/per%C3%BA-mano-letras-y-garabatos-elementos-de-fondo.jpg?s=612x612&w=0&k=20&c=JIVgjCrNTtDXxOyKsxTemtqjawiNlosYHGAyBmSFT4Y=",
+      "link": "https://chat.whatsapp.com/invite/culturaperuana"
+    },
+    {
+      "id": 3,
+      "name": "Economía y Finanzas Perú",
+      "description": "Grupo para discutir temas de economía, inversiones y finanzas en el contexto peruano.",
+      "category": "Economía",
+      "members": 18000,
+      "image": "https://media.istockphoto.com/id/1211747338/es/vector/icono-de-an%C3%A1lisis-de-beneficios-crecimiento-de-ganancias.jpg?s=612x612&w=0&k=20&c=JurY9MZjS_EMaMm8SCb8lG5hLc4WvqGl7L4ZFfUAHJ8=",
+      "link": "https://chat.whatsapp.com/invite/economiaperu"
+    },
+    {
+      "id": 4,
+      "name": "Perú Gastronómico",
+      "description": "Comunidad para los amantes de la gastronomía peruana. Comparte recetas, fotos y recomendaciones.",
+      "category": "Gastronomía",
+      "members": 25000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz9hQGO85F7zrdwEQjYfRPuDoAfmTYhh_bmA&s",
+      "link": "https://chat.whatsapp.com/invite/gastronomiaperu"
+    },
+    {
+      "id": 5,
+      "name": "Noticias del Perú",
+      "description": "Noticias y sucesos importantes de Perú. Mantente informado.",
+      "category": "Noticias",
+      "members": 30000,
+      "image": "https://yt3.googleusercontent.com/PrYs-3eX0dlRFCXkx0l6KDNoSnIYOWJODbPPBirJazm-0xtTv8AJZ1FajbvVVjv2dGKSJOgwOw=s900-c-k-c0x00ffffff-no-rj",
+      "link": "https://chat.whatsapp.com/invite/noticiasperu"
+    },
+    {
+      "id": 6,
+      "name": "Emprendedores Perú",
+      "description": "Grupo de apoyo y networking para emprendedores peruanos.",
+      "category": "Emprendimiento",
+      "members": 12000,
+      "image": "https://www.barrancabermeja.gov.co/info/barrancabermeja_bco/media/pubInt/thumbs/thpubInt_700X400_1236.webp",
+      "link": "https://chat.whatsapp.com/invite/emprendedoresperu"
+    },
+    {
+      "id": 7,
+      "name": "Programadores Perú",
+      "description": "Comunidad para desarrolladores y programadores peruanos. Comparte recursos y colabora.",
+      "category": "Tecnología",
+      "members": 10000,
+      "image": "https://avatars.githubusercontent.com/u/75873016?s=200&v=4",
+      "link": "https://chat.whatsapp.com/invite/programadoresperu"
+    },
+    {
+      "id": 8,
+      "name": "Cine y Series Perú",
+      "description": "Grupo para discutir sobre películas y series. Recomendaciones, estrenos y más.",
+      "category": "Entretenimiento",
+      "members": 14000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmiqXPVZgj1CKSr_zWJzmi4UJeoXJD_NRwXg&s",
+      "link": "https://chat.whatsapp.com/invite/cineyseriesperu"
+    }
+]
