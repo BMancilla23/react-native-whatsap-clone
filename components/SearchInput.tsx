@@ -7,7 +7,7 @@ import CloseCircle from "@/assets/icons/CloseCircle";
 const SearchInput = () => {
   return (
     <View
-      style={className`flex-row items-center bg-gray-800 rounded-full shadow-lg px-2`}
+      style={className`flex-row items-center bg-gray-800 rounded-full shadow-lg px-2 mb-4`}
     >
       <SearchIcon />
       <TextInput
