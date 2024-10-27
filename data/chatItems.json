@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Smith",
+    "message": "Hey, are you coming today?",
+    "date": "2024-10-25",
+    "image": "https://randomuser.me/api/portraits/women/1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Bob Johnson",
+    "message": "Got it, thanks!",
+    "date": "2024-10-25",
+    "image": "https://randomuser.me/api/portraits/men/2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Carla Brown",
+    "message": "Let's catch up later!",
+    "date": "2024-10-25",
+    "image": "https://randomuser.me/api/portraits/women/3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "David Wilson",
+    "message": "On my way.",
+    "date": "2024-10-25",
+    "image": "https://randomuser.me/api/portraits/men/4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Emma White",
+    "message": "Thanks for the help!",
+    "date": "2024-10-25",
+    "image": "https://randomuser.me/api/portraits/women/5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Frank Harris",
+    "message": "No problem, anytime!",
+    "date": "2024-10-25",
+    "image": "https://randomuser.me/api/portraits/men/6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Grace Martin",
+    "message": "Let's meet at noon.",
+    "date": "2024-10-25",
+    "image": "https://randomuser.me/api/portraits/women/7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Harry Thompson",
+    "message": "See you soon!",
+    "date": "2024-10-25",
+    "image": "https://randomuser.me/api/portraits/men/8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Ivy Moore",
+    "message": "Can we reschedule?",
+    "date": "2024-10-25",
+    "image": "https://randomuser.me/api/portraits/women/9.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Jack Clark",
+    "message": "Sounds good!",
+    "date": "2024-10-25",
+    "image": "https://randomuser.me/api/portraits/men/10.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Karen Lewis",
+    "message": "Sure, let’s do it.",
+    "date": "2024-10-25",
+    "image": "https://randomuser.me/api/portraits/women/11.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Larry Walker",
+    "message": "Perfect, thanks!",
+    "date": "2024-10-25",
+    "image": "https://randomuser.me/api/portraits/men/12.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Monica Hill",
+    "message": "See you at the meeting.",
+    "date": "2024-10-25",
+    "image": "https://randomuser.me/api/portraits/women/13.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Nathan Scott",
+    "message": "I’ll be there soon.",
+    "date": "2024-10-25",
+    "image": "https://randomuser.me/api/portraits/men/14.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Olivia King",
+    "message": "Looking forward to it!",
+    "date": "2024-10-25",
+    "image": "https://randomuser.me/api/portraits/women/15.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Paul Allen",
+    "message": "Let’s make it happen.",
+    "date": "2024-10-25",
+    "image": "https://randomuser.me/api/portraits/men/16.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Quinn Adams",
+    "message": "I’m on my way.",
+    "date": "2024-10-25",
+    "image": "https://randomuser.me/api/portraits/women/17.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Ryan Stewart",
+    "message": "All set, thanks!",
+    "date": "2024-10-25",
+    "image": "https://randomuser.me/api/portraits/men/18.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Sophie Lopez",
+    "message": "Got the update.",
+    "date": "2024-10-25",
+    "image": "https://randomuser.me/api/portraits/women/19.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Tom Harris",
+    "message": "Alright, see you then.",
+    "date": "2024-10-25",
+    "image": "https://randomuser.me/api/portraits/men/20.jpg"
+  }
+]
