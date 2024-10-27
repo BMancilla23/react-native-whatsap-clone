@@ -13,13 +13,13 @@ export default function updates() {
       <Text style={className`text-white text-xl mb-4`}>Estado</Text>
       <MyStatus />
       <View style={className`flex-row justify-between items-center mb-4`}>
-        <Text style={className`text-white text-xl`}>Canales</Text>
-        <Text style={className`text-green-500 text-xl`}>Explorar</Text>
+        <Text style={className`text-white text-md`}>Canales</Text>
+        <Text style={className`text-green-500 text-md`}>Explorar</Text>
       </View>
 
       <FlatList
         data={channelData}
-        contentContainerStyle={className`gap-3`}
+        contentContainerStyle={className`gap-5`}
         renderItem={({ item }) => <ChannelItem {...item} />}
       />
     </View>
