@@ -1,10 +1,12 @@
 import ChannelItem from "@/components/ChannelItem";
+import FloatingButton from "@/components/FloatingButton";
 import Header from "@/components/Header";
 import MyStatus from "@/components/MyStatus";
 import channelData from "@/data/channelItems.json";
 import React from "react";
 import { FlatList, Text, View } from "react-native";
 import className from "twrnc";
+import { AntDesign, MaterialIcons } from "@expo/vector-icons";
 
 export default function updates() {
   return (
@@ -21,6 +23,19 @@ export default function updates() {
         data={channelData}
         contentContainerStyle={className`gap-5`}
         renderItem={({ item }) => <ChannelItem {...item} />}
+      />
+      <FloatingButton
+        icon={<MaterialIcons size={24} name="edit" color="white" />}
+        onPress={() => console.log("Chat icon pressed")}
+        style={className`absolute bottom-22 right-6 `}
+        size={40}
+        color="bg-black"
+      />
+
+      <FloatingButton
+        icon={<AntDesign size={24} name="camera" color="white" />}
+        onPress={() => console.log("Chat icon pressed")}
+        style={className`absolute bottom-5 right-5 `}
       />
     </View>
   );
