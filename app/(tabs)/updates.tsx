@@ -7,11 +7,34 @@ import React from "react";
 import { FlatList, Text, View } from "react-native";
 import className from "twrnc";
 import { AntDesign, MaterialIcons } from "@expo/vector-icons";
+import HeaderTemplate from "@/templates/HeaderTemplate";
 
-export default function updates() {
+export default function UpdateScreen() {
+  const menuItems = [
+    {
+      label: "Privacidad de datos",
+      onPress: () => console.log("Privacidad de datos"),
+    },
+    {
+      label: "Crear canal",
+      onPress: () => console.log("Crear canal"),
+    },
+    {
+      label: "Ajustes",
+      onPress: () => console.log("Ajustes"),
+    },
+  ];
+
+  {
+    /* <View style={className`flex-1 p-4`}>
+      <Header title="Novedades" showSearchIcon={true} menuItems={menuItems} /> */
+  }
   return (
-    <View style={className`flex-1 p-4`}>
-      <Header title="Novedades" showSearchIcon={true} />
+    <HeaderTemplate
+      title={"Novedades"}
+      menuItems={menuItems}
+      showSearchIcon={true}
+    >
       <Text style={className`text-white text-xl mb-4`}>Estado</Text>
       <MyStatus />
       <View style={className`flex-row justify-between items-center mb-4`}>
@@ -37,6 +60,7 @@ export default function updates() {
         onPress={() => console.log("Chat icon pressed")}
         style={className`absolute bottom-5 right-5 `}
       />
-    </View>
+    </HeaderTemplate>
   );
+  /*  </View> */
 }

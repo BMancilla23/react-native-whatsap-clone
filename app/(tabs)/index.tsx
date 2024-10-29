@@ -1,19 +1,62 @@
-import { View, Text, FlatList, Pressable } from "react-native";
-import React from "react";
-import className from "twrnc";
-import Header from "@/components/Header";
-import SearchInput from "@/components/SearchInput";
 import ChatItem from "@/components/ChatItem";
-import chatData from "@/data/chatItems.json";
-import ChatIcon from "@/assets/icons/ChatIcon";
 import FloatingButton from "@/components/FloatingButton";
+import Header from "@/components/Header";
+import PressableSearch from "@/components/PressableSearch";
+import SearchInput from "@/components/SearchInput";
+import chatData from "@/data/chatItems.json";
+import HeaderTemplate from "@/templates/HeaderTemplate";
 import { MaterialIcons } from "@expo/vector-icons";
+import React, { useState } from "react";
+import { FlatList, View } from "react-native";
+import className from "twrnc";
 
-export default function index() {
+export default function ChatScreen() {
+  /*   const [isSearchActive, setIsSearchActive] = useState(false); */
+
+  const menuItems = [
+    {
+      label: "Nuevo grupo",
+      onPress: () => console.log("Nuevo grupo"),
+    },
+    {
+      label: "Nueva difusión",
+      onPress: () => console.log("Nueva difusión"),
+    },
+    {
+      label: "Dispositivos vinculados",
+      onPress: () => console.log("Dispositivos vinculados"),
+    },
+    {
+      label: "Mensajes destacados",
+      onPress: () => console.log("Mensajes destacados"),
+    },
+    {
+      label: "Ajustes",
+      onPress: () => console.log("Ajustes"),
+    },
+  ];
+
+  // <View style={className`flex-1 p-4 relative`}>
+  {
+    /* {isSearchActive ? (
+        <PressableSearch onBack={() => setIsSearchActive(false)} />
+      ) : (
+        <Header
+          title="WhatsApp"
+          showSearchIcon={true}
+          menuItems={menuItems}
+          onSearchPress={() => setIsSearchActive(true)}
+        />
+      )} */
+  }
+
+  // <SearchInput />
   return (
-    <View style={className`flex-1 p-4 relative`}>
-      <Header title="WhatsApp" showSearchIcon={true} />
-      <SearchInput />
+    <HeaderTemplate
+      title="WhatsApp"
+      menuItems={menuItems}
+      showSearchIcon={true}
+    >
       <FlatList
         contentContainerStyle={className`gap-3`}
         data={chatData}
@@ -21,10 +64,18 @@ export default function index() {
       />
 
       <FloatingButton
-        icon={<MaterialIcons size={24} name="add-comment" color="white" />}
+        icon={
+          <MaterialIcons
+            size={24}
+            name="add-comment"
+            color="white"
+            style={{ transform: [{ rotate: "180deg" }] }}
+          />
+        }
         onPress={() => console.log("Chat icon pressed")}
         style={className`absolute bottom-5 right-5 `}
       />
-    </View>
+    </HeaderTemplate>
   );
+  // </View>
 }
