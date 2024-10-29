@@ -57,7 +57,7 @@ export default function TabLayout() {
         },
       })}
     >
-      <Tabs.Screen name="index" options={{ title: "Chats" }} />
+      <Tabs.Screen name="chats" options={{ title: "Chats" }} />
       <Tabs.Screen name="updates" options={{ title: "Novedades" }} />
       <Tabs.Screen name="communities" options={{ title: "Comunidades" }} />
       <Tabs.Screen name="calls" options={{ title: "Llamadas" }} />

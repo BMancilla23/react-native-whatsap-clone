@@ -1,13 +1,10 @@
 import ChatItem from "@/components/ChatItem";
 import FloatingButton from "@/components/FloatingButton";
-import Header from "@/components/Header";
-import PressableSearch from "@/components/PressableSearch";
-import SearchInput from "@/components/SearchInput";
 import chatData from "@/data/chatItems.json";
 import HeaderTemplate from "@/templates/HeaderTemplate";
 import { MaterialIcons } from "@expo/vector-icons";
-import React, { useState } from "react";
-import { FlatList, View } from "react-native";
+import React from "react";
+import { FlatList } from "react-native";
 import className from "twrnc";
 
 export default function ChatScreen() {
