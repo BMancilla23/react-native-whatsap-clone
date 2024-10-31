@@ -19,7 +19,7 @@ const HeaderTemplate = ({
   const { isSearchActive } = useHeader();
 
   return (
-    <View style={className`flex-1 p-4 relative`}>
+    <View style={className`flex-1 relative`}>
       {isSearchActive ? (
         <PressableSearch />
       ) : (
