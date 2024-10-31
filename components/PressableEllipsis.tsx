@@ -37,7 +37,7 @@ const PressableEllipsis = ({ menuItems }: { menuItems: MenuItem[] }) => {
         <Pressable style={className`flex-1`} onPress={handleOutsidePress}>
           <View
             style={[
-              className`w-48 gap-3 right-1 z-50 top-10 absolute bg-gray-900 p-3 rounded-md`,
+              className`min-w-48 gap-3 right-4 z-50 top-17 absolute bg-gray-900 p-3 rounded-md`,
               {
                 opacity: vissible ? 1 : 0,
                 transform: [{ translateY: vissible ? 0 : -10 }],
