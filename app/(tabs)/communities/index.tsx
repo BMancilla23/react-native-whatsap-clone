@@ -5,8 +5,13 @@ import className from "twrnc";
 import communityData from "@/data/communityItems.json";
 import CommunityItem from "@/components/CommunityItem";
 import HeaderTemplate from "@/templates/HeaderTemplate";
+import FloatingButton from "@/components/FloatingButton";
+import CameraIcon from "@/assets/icons/CameraIcon";
+import { useRouter } from "expo-router";
+import { AntDesign } from "@expo/vector-icons";
 
 export default function CommunityScreen() {
+  const router = useRouter();
   const menuItems = [
     {
       label: "Ajustes",
@@ -31,8 +36,14 @@ export default function CommunityScreen() {
       <FlatList
         keyExtractor={(item) => item.id.toString()}
         data={communityData}
-        contentContainerStyle={className`gap-3`}
+        contentContainerStyle={className`gap-0`}
         renderItem={({ item }) => <CommunityItem {...item} />}
+      />
+
+      <FloatingButton
+        icon={<AntDesign size={24} name="camera" color="white" />}
+        onPress={() => router.push("/camera")}
+        style={className`absolute bottom-5 right-5 `}
       />
     </HeaderTemplate>
   );

@@ -21,9 +21,7 @@ const CommunityItem = ({
   image,
 }: CommunityItemProps) => {
   return (
-    <View
-      style={className`flex-row items-center py-3 border-b border-gray-700`}
-    >
+    <View style={className`flex-row items-center p-4 border-b border-gray-700`}>
       <Image
         source={{ uri: image }}
         style={className`h-12 w-12 rounded-full bg-gray-800`}
