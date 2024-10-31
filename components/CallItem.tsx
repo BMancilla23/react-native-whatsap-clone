@@ -1,8 +1,9 @@
-import { View, Text, Image } from "react-native";
+import { View, Text, Image, Pressable } from "react-native";
 import React from "react";
 import className from "twrnc";
 import { Feather, Ionicons } from "@expo/vector-icons";
 import { formatTimeTo12Hour } from "@/utils/formatTime";
+import { useRouter } from "expo-router";
 
 interface CallItemProps {
   id: number;
@@ -15,6 +16,7 @@ interface CallItemProps {
 }
 
 const CallItem = ({
+  id,
   name,
   type,
   duration,
@@ -22,9 +24,10 @@ const CallItem = ({
   time,
   image,
 }: CallItemProps) => {
+  const router = useRouter();
   return (
     <View
-      style={className`flex-row items-center rounded-lg shadow-sm space-between`}
+      style={className`flex-row items-center rounded-lg shadow-sm space-between p-3`}
     >
       <Image
         source={{ uri: image }}
@@ -69,7 +72,9 @@ const CallItem = ({
           {date} - {formatTimeTo12Hour(time)}
         </Text>
       </View>
-      <Ionicons size={24} name="call-outline" color="white" />
+      <Pressable onPress={() => router.push(`/calls/${id}`)}>
+        <Ionicons size={24} name="call-outline" color="white" />
+      </Pressable>
     </View>
   );
 };

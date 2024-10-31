@@ -34,7 +34,7 @@ export default function CallScreen() {
         keyExtractor={(item) => item.id.toString()}
         data={callData}
         renderItem={({ item }) => <CallItem {...item} />}
-        contentContainerStyle={className`gap-3`}
+        contentContainerStyle={className`gap-0`}
       />
 
       <FloatingButton
