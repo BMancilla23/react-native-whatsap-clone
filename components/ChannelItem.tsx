@@ -23,7 +23,7 @@ const ChannelItem = ({
   link,
 }: ChannelItemProps) => {
   return (
-    <View style={className`flex-row justify-between items-center gap-3`}>
+    <View style={className`flex-row justify-between items-center p-4 gap-3`}>
       {image ? (
         <Image
           source={{ uri: image }}

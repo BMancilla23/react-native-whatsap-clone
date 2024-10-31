@@ -8,8 +8,10 @@ import { FlatList, Text, View } from "react-native";
 import className from "twrnc";
 import { AntDesign, MaterialIcons } from "@expo/vector-icons";
 import HeaderTemplate from "@/templates/HeaderTemplate";
+import { useRouter } from "expo-router";
 
 export default function UpdateScreen() {
+  const router = useRouter();
   const menuItems = [
     {
       label: "Privacidad de datos",
@@ -35,16 +37,16 @@ export default function UpdateScreen() {
       menuItems={menuItems}
       showSearchIcon={true}
     >
-      <Text style={className`text-white text-xl mb-4`}>Estado</Text>
+      <Text style={className`text-white text-xl p-4`}>Estado</Text>
       <MyStatus />
-      <View style={className`flex-row justify-between items-center mb-4`}>
+      <View style={className`flex-row justify-between items-center p-4`}>
         <Text style={className`text-white text-md`}>Canales</Text>
         <Text style={className`text-green-500 text-md`}>Explorar</Text>
       </View>
 
       <FlatList
         data={channelData}
-        contentContainerStyle={className`gap-5`}
+        contentContainerStyle={className`gap-0`}
         renderItem={({ item }) => <ChannelItem {...item} />}
       />
       <FloatingButton
@@ -57,7 +59,7 @@ export default function UpdateScreen() {
 
       <FloatingButton
         icon={<AntDesign size={24} name="camera" color="white" />}
-        onPress={() => console.log("Chat icon pressed")}
+        onPress={() => router.push("/camera")}
         style={className`absolute bottom-5 right-5 `}
       />
     </HeaderTemplate>
