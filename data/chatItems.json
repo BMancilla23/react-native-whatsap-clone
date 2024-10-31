@@ -4,6 +4,7 @@
     "name": "Alice Smith",
     "message": "Hey, are you coming today?",
     "date": "2024-10-25",
+    "time": "09:15",
     "image": "https://randomuser.me/api/portraits/women/1.jpg"
   },
   {
@@ -11,6 +12,7 @@
     "name": "Bob Johnson",
     "message": "Got it, thanks!",
     "date": "2024-10-25",
+    "time": "09:30",
     "image": "https://randomuser.me/api/portraits/men/2.jpg"
   },
   {
@@ -18,6 +20,7 @@
     "name": "Carla Brown",
     "message": "Let's catch up later!",
     "date": "2024-10-25",
+    "time": "10:00",
     "image": "https://randomuser.me/api/portraits/women/3.jpg"
   },
   {
@@ -25,6 +28,7 @@
     "name": "David Wilson",
     "message": "On my way.",
     "date": "2024-10-25",
+    "time": "10:25",
     "image": "https://randomuser.me/api/portraits/men/4.jpg"
   },
   {
@@ -32,6 +36,7 @@
     "name": "Emma White",
     "message": "Thanks for the help!",
     "date": "2024-10-25",
+    "time": "11:10",
     "image": "https://randomuser.me/api/portraits/women/5.jpg"
   },
   {
@@ -39,6 +44,7 @@
     "name": "Frank Harris",
     "message": "No problem, anytime!",
     "date": "2024-10-25",
+    "time": "11:30",
     "image": "https://randomuser.me/api/portraits/men/6.jpg"
   },
   {
@@ -46,6 +52,7 @@
     "name": "Grace Martin",
     "message": "Let's meet at noon.",
     "date": "2024-10-25",
+    "time": "11:45",
     "image": "https://randomuser.me/api/portraits/women/7.jpg"
   },
   {
@@ -53,6 +60,7 @@
     "name": "Harry Thompson",
     "message": "See you soon!",
     "date": "2024-10-25",
+    "time": "12:00",
     "image": "https://randomuser.me/api/portraits/men/8.jpg"
   },
   {
@@ -60,6 +68,7 @@
     "name": "Ivy Moore",
     "message": "Can we reschedule?",
     "date": "2024-10-25",
+    "time": "12:30",
     "image": "https://randomuser.me/api/portraits/women/9.jpg"
   },
   {
@@ -67,6 +76,7 @@
     "name": "Jack Clark",
     "message": "Sounds good!",
     "date": "2024-10-25",
+    "time": "13:00",
     "image": "https://randomuser.me/api/portraits/men/10.jpg"
   },
   {
@@ -74,6 +84,7 @@
     "name": "Karen Lewis",
     "message": "Sure, let’s do it.",
     "date": "2024-10-25",
+    "time": "13:15",
     "image": "https://randomuser.me/api/portraits/women/11.jpg"
   },
   {
@@ -81,6 +92,7 @@
     "name": "Larry Walker",
     "message": "Perfect, thanks!",
     "date": "2024-10-25",
+    "time": "14:00",
     "image": "https://randomuser.me/api/portraits/men/12.jpg"
   },
   {
@@ -88,6 +100,7 @@
     "name": "Monica Hill",
     "message": "See you at the meeting.",
     "date": "2024-10-25",
+    "time": "14:30",
     "image": "https://randomuser.me/api/portraits/women/13.jpg"
   },
   {
@@ -95,6 +108,7 @@
     "name": "Nathan Scott",
     "message": "I’ll be there soon.",
     "date": "2024-10-25",
+    "time": "15:00",
     "image": "https://randomuser.me/api/portraits/men/14.jpg"
   },
   {
@@ -102,6 +116,7 @@
     "name": "Olivia King",
     "message": "Looking forward to it!",
     "date": "2024-10-25",
+    "time": "15:45",
     "image": "https://randomuser.me/api/portraits/women/15.jpg"
   },
   {
@@ -109,6 +124,7 @@
     "name": "Paul Allen",
     "message": "Let’s make it happen.",
     "date": "2024-10-25",
+    "time": "16:10",
     "image": "https://randomuser.me/api/portraits/men/16.jpg"
   },
   {
@@ -116,6 +132,7 @@
     "name": "Quinn Adams",
     "message": "I’m on my way.",
     "date": "2024-10-25",
+    "time": "16:40",
     "image": "https://randomuser.me/api/portraits/women/17.jpg"
   },
   {
@@ -123,6 +140,7 @@
     "name": "Ryan Stewart",
     "message": "All set, thanks!",
     "date": "2024-10-25",
+    "time": "17:00",
     "image": "https://randomuser.me/api/portraits/men/18.jpg"
   },
   {
@@ -130,6 +148,7 @@
     "name": "Sophie Lopez",
     "message": "Got the update.",
     "date": "2024-10-25",
+    "time": "17:20",
     "image": "https://randomuser.me/api/portraits/women/19.jpg"
   },
   {
@@ -137,6 +156,7 @@
     "name": "Tom Harris",
     "message": "Alright, see you then.",
     "date": "2024-10-25",
+    "time": "18:00",
     "image": "https://randomuser.me/api/portraits/men/20.jpg"
   }
 ]

@@ -8,6 +8,7 @@ export default function ChatsLayout() {
       screenOptions={{
         title: "Chats",
         headerShown: false,
+        navigationBarHidden: true,
         contentStyle: {
           backgroundColor: "#000",
         },

@@ -19,18 +19,18 @@ import { useHeader } from "@/context/HeaderContext";
 const PressableSearch = (/* { onBack }: PressableSearchProps */) => {
   const { setIsSearchActive } = useHeader();
   return (
-    <View>
+    <View style={className`px-4`}>
       <View
-        style={className`flex-row items-center bg-gray-900 rounded-full shadow-lg px-2 mb-4`}
+        style={className`flex-row items-center bg-slate-950 rounded-full shadow-lg px-4 h-11`}
       >
         <TouchableOpacity
           /* onPress={onBack} */ onPress={() => setIsSearchActive(false)}
         >
-          <Ionicons name="arrow-back-outline" size={24} color="white" />
+          <Ionicons name="arrow-back-outline" size={20} color="white" />
         </TouchableOpacity>
         <TextInput
           style={[
-            className`flex-1 text-white h-10 p-2`,
+            className`flex-1 text-white ml-2`,
             {
               outlineStyle: "none",
               outlineWidth: 0,

@@ -3,12 +3,15 @@ import FloatingButton from "@/components/FloatingButton";
 import chatData from "@/data/chatItems.json";
 import HeaderTemplate from "@/templates/HeaderTemplate";
 import { MaterialIcons } from "@expo/vector-icons";
+import { useRouter } from "expo-router";
 import React from "react";
 import { FlatList } from "react-native";
 import className from "twrnc";
 
 export default function ChatScreen() {
   /*   const [isSearchActive, setIsSearchActive] = useState(false); */
+
+  const router = useRouter(); // Inicializa el hook de router
 
   const menuItems = [
     {
@@ -55,9 +58,14 @@ export default function ChatScreen() {
       showSearchIcon={true}
     >
       <FlatList
-        contentContainerStyle={className`gap-3`}
+        contentContainerStyle={className`gap-0`}
         data={chatData}
-        renderItem={({ item }) => <ChatItem {...item} />}
+        renderItem={({ item }) => (
+          <ChatItem
+            {...item}
+            onPress={() => router.push(`/chats/${item.id}`)}
+          />
+        )}
       />
 
       <FloatingButton
