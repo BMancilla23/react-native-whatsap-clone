@@ -30,7 +30,7 @@ Para instalar y ejecutar el proyecto en tu entorno local, sigue estos pasos:
 1. **Clona el repositorio**:
 
    ```bash
-   git clone https://github.com/BMancilla23/react-native-whatsap-clone.git
+   git clone https://github.com/BMancilla23/react-native-whatsapp-clone.git
    ```
 
 2. **Navega al directorio del proyecto**:
