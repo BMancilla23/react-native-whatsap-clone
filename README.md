@@ -53,33 +53,15 @@ Para instalar y ejecutar el proyecto en tu entorno local, sigue estos pasos:
 
 ## Vista previa del proyecto
 
-### Chats
-
-![Vista de login](/docs/images/chats.png)
-
-### Updates
-
-![Vista de home](/docs/images/updates.png)
-
-### Communities
-
-![Vista de dashboard](/docs/images/communities.png)
-
-### Calls
-
-![Vista de products](/docs/images/calls.png)
-
-### Chat User
-
-![Vista de product](/docs/images/chat-user.png)
-
-### Call User
-
-![Vista de payment](/docs/images/call-user.png)
-
-### Camera
-
-![Vista de payment](/docs/images/camera.png)
+| Pantalla        | Vista Previa                                          | Descripción                                          |
+| --------------- | ----------------------------------------------------- | ---------------------------------------------------- |
+| **Chats**       | ![Vista de chats](/docs/images/chats.png)             | Lista de conversaciones y opción de chat.            |
+| **Updates**     | ![Vista de updates](/docs/images/updates.png)         | Pantalla de novedades con canales y actualizaciones. |
+| **Communities** | ![Vista de communities](/docs/images/communities.png) | Gestión y visualización de comunidades.              |
+| **Calls**       | ![Vista de calls](/docs/images/calls.png)             | Registro de llamadas recientes.                      |
+| **Chat User**   | ![Vista de chat-user](/docs/images/chat-user.png)     | Vista de conversación individual.                    |
+| **Call User**   | ![Vista de call-user](/docs/images/call-user.png)     | Pantalla de llamada con un usuario.                  |
+| **Camera**      | ![Vista de camera](/docs/images/camera.png)           | Funcionalidad de cámara integrada en la app.         |
 
 ## Pruebas Unitarias
 
