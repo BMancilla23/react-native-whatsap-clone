@@ -5,7 +5,7 @@ import data from "@/data/chatItems.json";
 
 const MyStatus = () => {
   return (
-    <View style={className`flex-row justify-between items-center gap-3 mb-4`}>
+    <View style={className`flex-row justify-between items-center gap-3 p-4`}>
       <Image
         source={{ uri: data[5].image }}
         style={className`h-14 w-14 rounded-full bg-gray-800`}
